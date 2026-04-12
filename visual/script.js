@@ -8,7 +8,7 @@ const posts = [
     {
         type: 'photo',
         date: 'April 12, 2026',
-        url: 'pictures/worldscutestdog.webp',
+        url: 'photos/worldscutestdog.webp',
         content: "I just created this page because I hate Instagram. I hate Instagram. No shade to people who use it though.\nI was thinking about what to post here, and I realized I don't have anything on hand right now except for this picture of my dog. So this is my dog 흰둥이. He's 3 and also moderately obese. He's really cute even though every haircut ages him ten years."
     },
 ];
