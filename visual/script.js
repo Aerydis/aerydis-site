@@ -51,4 +51,30 @@ function renderFeed() {
     });
 }
 
-window.onload = renderFeed;
+window.onload = function() {
+    renderFeed();
+    initThemeToggle();
+};
+
+function initThemeToggle() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Check for saved theme preference or default to dark
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    body.classList.toggle('light-mode', currentTheme === 'light');
+    updateToggleIcon(themeToggle, currentTheme);
+
+    themeToggle.addEventListener('click', () => {
+        const isLight = body.classList.contains('light-mode');
+        const newTheme = isLight ? 'dark' : 'light';
+        
+        body.classList.toggle('light-mode');
+        localStorage.setItem('theme', newTheme);
+        updateToggleIcon(themeToggle, newTheme);
+    });
+}
+
+function updateToggleIcon(button, theme) {
+    button.textContent = theme === 'light' ? '☀️' : '🌙';
+}
