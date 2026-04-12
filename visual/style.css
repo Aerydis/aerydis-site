@@ -163,7 +163,6 @@ h1 {
     font-size: 14px;
     font-style: normal;
     color: var(--text-post-color);
-    white-space: pre-wrap;
 }
 
 footer {
