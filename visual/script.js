@@ -100,5 +100,5 @@ function initThemeToggle() {
 }
 
 function updateToggleIcon(button, theme) {
-    button.textContent = theme === 'light' ? '~｡˚𖤓˚｡~' : '⋆｡˚⏾˚｡⋆ ';
+    button.textContent = theme === 'light' ? '~｡˚𖤓˚｡~' : '⋆.｡˚⏾˚｡.⋆ ';
 }
