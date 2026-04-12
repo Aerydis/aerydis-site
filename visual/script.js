@@ -84,8 +84,8 @@ function initThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
 
-    // Check for saved theme preference or default to light
-    const currentTheme = localStorage.getItem('theme') || 'light';
+    // Check for saved theme preference or default to dark
+    const currentTheme = localStorage.getItem('theme') || 'dark';
     body.classList.toggle('light-mode', currentTheme === 'light');
     updateToggleIcon(themeToggle, currentTheme);
 
