@@ -2,6 +2,7 @@
     --bg-color: #121315;
     --text-main: #c0c9db;
     --text-muted: #9daccc;
+    --text-more-muted: rgba(139, 153, 185, 0.747);
     --border-color: #384c65;
     --photo-bg: #f0f0f0;
     --caption-color: #9daccc;
@@ -14,6 +15,7 @@ body.light-mode {
     --bg-color: #fafafa;
     --text-main: #384c65;
     --text-muted: #485f88;
+    --text-more-muted: rgba(91, 110, 144, 0.647);
     --border-color: #eeeeee;
     --photo-bg: #e0e0e0;
     --caption-color: #121524;
@@ -104,6 +106,18 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-family: 'Bitcount Grid Double', monospace;
+}
+
+.post-time {
+    color: var(--text-more-muted);
+    font-weight: 700;
+}
+
+.post-time::before {
+    content: '•';
+    display: inline-block;
+    margin: 0 8px 0 0;
+    color: var(--text-more-muted);
 }
 
 .line {

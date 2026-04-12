@@ -17,6 +17,7 @@ const posts = [
     {
         type: 'photo',
         date: 'April 12, 2026',
+        time: '10:42 PM',
         url: 'photos/worldscutestdog.webp',
         content: formatCaption(`I just created this page because I hate Instagram. And I'll say it again. I hate Instagram. No shade to people who use it though.
 Basically I:
@@ -37,10 +38,11 @@ function renderFeed() {
         const article = document.createElement('article');
         article.className = 'post';
 
-        // date
+        // date/time
         let postHTML = `
             <div class="post-meta">
-                <span>${post.date}</span>
+                <span class="post-date">${post.date}</span>
+                <span class="post-time">${post.time}</span>
                 <div class="line"></div>
             </div>
         `;
