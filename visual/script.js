@@ -65,7 +65,7 @@ function renderFeed() {
         } else {
             postHTML += `
                 <div class="text-post-content">
-                    "${post.content}"
+                    ${post.content}
                 </div>
             `;
         }
