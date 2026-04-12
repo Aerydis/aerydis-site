@@ -15,9 +15,16 @@ function formatCaption(text) {
 
 const posts = [
     {
+        type: 'text',
+        date: 'April 13, 2026',
+        time: '00:22',
+        content: "What's posting on social media for anyway? Who cares about my life? But here's a fun quote: A week is 2% of a year."
+    },
+    
+    {
         type: 'photo',
         date: 'April 12, 2026',
-        time: '10:42 PM',
+        time: '22:42',
         url: 'photos/worldscutestdog.webp',
         content: formatCaption(`I just created this page because I hate Instagram. And I'll say it again. I hate Instagram. No shade to people who use it though.
 Basically I:
