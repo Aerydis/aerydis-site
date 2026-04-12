@@ -141,7 +141,6 @@ h1 {
 }
 
 .caption {
-    font-family: 'Tomorrow', Georgia, serif;
     font-style: normal;
     font-size: 14px;
     color: var(--caption-color);
@@ -162,9 +161,9 @@ h1 {
     background: var(--text-post-bg);
     box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     font-size: 14px;
-    font-weight: 300;
     font-style: normal;
     color: var(--text-post-color);
+    white-space: pre-wrap;
 }
 
 footer {

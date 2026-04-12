@@ -20,7 +20,7 @@ const posts = [
         time: '00:22',
         content: "What's posting on social media for anyway? Who cares about my life? But here's a fun quote: A week is 2% of a year."
     },
-    
+
     {
         type: 'photo',
         date: 'April 12, 2026',
@@ -58,7 +58,7 @@ function renderFeed() {
         if (post.type === 'photo') {
             postHTML += `
                 <div class="photo-container">
-                    <img src="${post.url}" alt="Post image">
+                    <img src="${post.url}" alt="Post image" loading="lazy">
                 </div>
                 <p class="caption">${post.content}</p>
             `;
