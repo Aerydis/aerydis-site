@@ -6,7 +6,7 @@
     --border-color: #384c65;
     --photo-bg: #f0f0f0;
     --caption-color: #9daccc;
-    --text-post-bg: white;
+    --text-post-bg: rgb(16, 18, 20);
     --text-post-color: #9daccc;
     --text-post-border: #384c65;
 }
@@ -163,6 +163,7 @@ h1 {
     font-size: 14px;
     font-style: normal;
     color: var(--text-post-color);
+    transition: background-color 0.2s ease-in-out;
 }
 
 footer {
