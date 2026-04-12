@@ -18,14 +18,14 @@ const posts = [
         type: 'photo',
         date: 'April 12, 2026',
         url: 'photos/worldscutestdog.webp',
-        content: formatCaption(`I just created this page because I hate Instagram. I hate Instagram. No shade to people who use it though.
+        content: formatCaption(`I just created this page because I hate Instagram. And I'll say it again. I hate Instagram. No shade to people who use it though.
 Basically I:
 1. Don't want to be tracked,
 2. Don't want my data to be sold,
 3. Don't want ads to be shoved down my throat,
 4. Don't want to scroll, and
 5. Don't want to train AI models.
-I was thinking about what to post here, and I realized I don't have anythings on hand right now except for this picture of my dog. So this is my dog 흰둥이. He's 3 and also moderately obese. Every haircut ages him ten years. But I love him so it doesn't really matter.`)
+Anyway I realized I don't have anything to post right now to go with my crazed rambling, except for this picture of my dog. So this is my dog 흰둥이. He's 3 and moderately obese. Every haircut ages him ten years. But I love him so it doesn't really matter.`)
     },
 ];
 

@@ -1,13 +1,13 @@
 :root {
-    --bg-color: #121524;
+    --bg-color: #121315;
     --text-main: #c0c9db;
     --text-muted: #9daccc;
-    --border-color: #0a0c13;
+    --border-color: #384c65;
     --photo-bg: #f0f0f0;
     --caption-color: #9daccc;
     --text-post-bg: white;
     --text-post-color: #9daccc;
-    --text-post-border: black;
+    --text-post-border: #384c65;
 }
 
 body.light-mode {
@@ -29,6 +29,7 @@ body {
     margin: 0;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .container {
@@ -59,12 +60,11 @@ h1 {
 #theme-toggle {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     color: var(--text-main);
     padding: 8px;
     border-radius: 4px;
-    transition: background-color 0.2s;
 }
 
 #theme-toggle:hover {
@@ -139,6 +139,7 @@ h1 {
     color: var(--text-muted);
     font-size: 14px;
     vertical-align: baseline;
+    font-style: normal;
 }
 
 .text-post-content {
