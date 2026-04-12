@@ -51,7 +51,7 @@ header {
     margin-bottom: 16px;
 }
 
-@media (500px > width >= 420px) {
+@media (500px > width) {
     h1 {
         font-size: 24px;
         font-weight: 500;
