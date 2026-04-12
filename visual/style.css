@@ -51,13 +51,36 @@ header {
     margin-bottom: 16px;
 }
 
-h1 {
-    font-size: 32px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    margin: 0;
-    font-family: 'Bitcount Grid Double', monospace;
+@media (width < 420px) {
+    h1 {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        margin: 0;
+        font-family: 'Bitcount Grid Double', monospace;
+    }
 }
+
+@media (500px > width >= 420px) {
+    h1 {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        margin: 0;
+        font-family: 'Bitcount Grid Double', monospace;
+    }
+}
+
+@media (width >= 500px) {
+    h1 {
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        margin: 0;
+        font-family: 'Bitcount Grid Double', monospace;
+    }
+}
+
 
 #theme-toggle {
     background: none;
