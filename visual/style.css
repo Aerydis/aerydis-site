@@ -91,6 +91,7 @@ h1 {
     font-style: italic;
     font-size: 18px;
     color: #333;
+    white-space: pre-wrap;
 }
 
 /* Text Post Styles */
