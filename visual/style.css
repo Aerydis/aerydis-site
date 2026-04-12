@@ -87,6 +87,9 @@ h1 {
 
 .post {
     position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+    padding: 24px;
 }
 
 /* date */
@@ -128,8 +131,8 @@ h1 {
 
 .caption {
     font-family: 'Tomorrow', Georgia, serif;
-    font-style: italic;
-    font-size: 17px;
+    font-style: normal;
+    font-size: 14px;
     color: var(--caption-color);
     white-space: pre-wrap;
 }
@@ -147,9 +150,9 @@ h1 {
     padding: 16px 32px;
     background: var(--text-post-bg);
     box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
-    font-style: italic;
+    font-style: normal;
     color: var(--text-post-color);
 }
 
