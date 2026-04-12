@@ -4,13 +4,28 @@
  * 2. To add text entry: add object in posts with { type: 'text', content: '...' }
  */
 
+function formatCaption(text) {
+    return text.split('\n').map((line, index) => {
+        line = line.trim();
+        if (!line) return '';
+        if (index === 0) return `<span class="enter-symbol">↳</span> ${line}`;
+        return line;
+    }).join('\n');
+}
+
 const posts = [
     {
         type: 'photo',
         date: 'April 12, 2026',
         url: 'photos/worldscutestdog.webp',
-        content: `I just created this page because I hate Instagram. I hate Instagram. No shade to people who use it though.
-        I was thinking about what to post here, and I realized I don't have anything on hand right now except for this picture of my dog. So this is my dog 흰둥이. He's 3 and also moderately obese. He's really cute even though every haircut ages him ten years.`
+        content: formatCaption(`I just created this page because I hate Instagram. I hate Instagram. No shade to people who use it though.
+Basically I:
+1. Don't want to be tracked,
+2. Don't want my data to be sold,
+3. Don't want ads to be shoved down my throat,
+4. Don't want to scroll, and
+5. Don't want to train AI models.
+I was thinking about what to post here, and I realized I don't have anythings on hand right now except for this picture of my dog. So this is my dog 흰둥이. He's 3 and also moderately obese. Every haircut ages him ten years. But I love him so it doesn't really matter.`)
     },
 ];
 
@@ -60,8 +75,8 @@ function initThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
 
-    // Check for saved theme preference or default to dark
-    const currentTheme = localStorage.getItem('theme') || 'dark';
+    // Check for saved theme preference or default to light
+    const currentTheme = localStorage.getItem('theme') || 'light';
     body.classList.toggle('light-mode', currentTheme === 'light');
     updateToggleIcon(themeToggle, currentTheme);
 
@@ -76,5 +91,5 @@ function initThemeToggle() {
 }
 
 function updateToggleIcon(button, theme) {
-    button.textContent = theme === 'light' ? '☀️' : '🌙';
+    button.textContent = theme === 'light' ? '~｡˚𖤓˚｡~' : '⋆｡˚⏾˚｡⋆ ';
 }
