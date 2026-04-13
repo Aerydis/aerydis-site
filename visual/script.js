@@ -28,6 +28,13 @@ const posts = [
 //         url: 'photos/photo.webp',
 //         content: formatCaption(`photo caption example`)
 //     },
+    {
+        type: 'photo',
+        date: 'April 13, 2026',
+        time: '22:29',
+        url: 'photos/20260413.webp',
+        content: formatCaption("What. It works. I am writing JavaScript bro I am crying tears of joy. This is the joy of being a developer. I could write JavaScript until I die of old age. I will write JavaScript six feet under until humanity colonizes Mars. This is my life's purpose. It is to write JavaScript. I have dreamed of this moment since the moment I was conceived. I even feel a strong love for Chrome, which I actively hated until ten minutes ago. JavaScript. JavaScript. JavaScript. Through `${ERT} min read` I can once again feel my love for the world.")
+    }
 ];
 
 function renderFeed() {
