@@ -32,7 +32,7 @@ const posts = [
         type: 'photo',
         date: 'May 5, 2026',
         time: '18:53',
-        url: 'photos/20260505.webp',
+        url: 'photos/2026050501.webp',
         content: formatCaption("white azalea")
     },
     {
