@@ -12,9 +12,9 @@
 }
 
 body.light-mode {
-    --bg-color: #fafafa;
+    --bg-color: #f4f5f5;
     --text-main: #384c65;
-    --text-muted: #485f88;
+    --text-muted: #8ca5b3;
     --text-more-muted: rgba(91, 110, 144, 0.647);
     --border-color: #eeeeee;
     --photo-bg: #e0e0e0;
