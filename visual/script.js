@@ -29,6 +29,62 @@ const posts = [
 //         content: formatCaption(`photo caption example`)
 //     },
     {
+        type: 'photo',
+        date: 'May 17, 2026',
+        time: '12:20',
+        url: 'photos/202605171220.webp',
+        content: formatCaption("danced to redred in front of 250 people thank you mark")
+    },
+    {
+        type: 'photo',
+        date: 'May 15, 2026',
+        time: '13:49',
+        url: 'photos/202605151349.webp',
+        content: formatCaption("delayed")
+    },
+    {
+        type: 'photo',
+        date: 'May 15, 2026',
+        time: '10:05',
+        url: 'photos/202605151005.webp',
+        content: formatCaption("stone museum brutalism")
+    },
+    {
+        type: 'photo',
+        date: 'May 13, 2026',
+        time: '14:58',
+        url: 'photos/202605131458.webp',
+        content: formatCaption("?")
+    },
+    {
+        type: 'photo',
+        date: 'May 13, 2026',
+        time: '10:01',
+        url: 'photos/202605131001.webp',
+        content: formatCaption("ossuloc with my friends")
+    },
+    {
+        type: 'photo',
+        date: 'May 12, 2026',
+        time: '13:50',
+        url: 'photos/202605121350.webp',
+        content: formatCaption("sea2")
+    },
+    {
+        type: 'photo',
+        date: 'May 12, 2026',
+        time: '13:42',
+        url: 'photos/202605121342.PNG',
+        content: formatCaption("sea")
+    },
+    {
+        type: 'photo',
+        date: 'May 12, 2026',
+        time: '08:16',
+        url: 'photos/202605120816.webp',
+        content: formatCaption("jeju island")
+    },
+    {
         type: 'text',
         date: 'May 11, 2026',
         time: '14:04',
