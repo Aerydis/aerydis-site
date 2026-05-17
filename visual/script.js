@@ -61,7 +61,7 @@ const posts = [
         date: 'May 13, 2026',
         time: '10:01',
         url: 'photos/202605131001.webp',
-        content: formatCaption("ossuloc with my friends")
+        content: formatCaption("osulloc with my friends")
     },
     {
         type: 'photo',
@@ -88,7 +88,7 @@ const posts = [
         type: 'text',
         date: 'May 11, 2026',
         time: '14:04',
-        content: "Mark you're a real one. If I survice The Masquerade(dancing to REDRED in front of 250 people for not 2 minutes) I will peel you mangos for four hours each day and owe you my firstborn child and build a minecraft shrine in your honor."
+        content: "Mark you're a real one. If I survive The Masquerade(dancing to REDRED in front of 250 people for not 2 minutes) I will peel you mangos for four hours each day and owe you my firstborn child and build a minecraft shrine in your honor."
     },
     {
         type: 'photo',
