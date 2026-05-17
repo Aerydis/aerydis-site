@@ -32,7 +32,7 @@ const posts = [
         type: 'text',
         date: 'May 11, 2026',
         time: '14:04',
-        content: "Mark you're a real one. If I survice The Masquerade(dancing to REDRED in front of 250 people for not 2 minutes) I will peel you mangos for four hours each day and owe you my firstborn child and build a minecraft shrine in your honor. Amen."
+        content: "Mark you're a real one. If I survice The Masquerade(dancing to REDRED in front of 250 people for not 2 minutes) I will peel you mangos for four hours each day and owe you my firstborn child and build a minecraft shrine in your honor."
     },
     {
         type: 'photo',
