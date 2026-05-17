@@ -47,7 +47,7 @@ const posts = [
         date: 'May 15, 2026',
         time: '10:05',
         url: 'photos/202605151005.webp',
-        content: formatCaption("stone museum brutalism")
+        content: formatCaption("stone museum")
     },
     {
         type: 'photo',
@@ -74,7 +74,7 @@ const posts = [
         type: 'photo',
         date: 'May 12, 2026',
         time: '13:42',
-        url: 'photos/202605121342.PNG',
+        url: 'photos/202605121342.webp',
         content: formatCaption("sea")
     },
     {
