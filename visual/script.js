@@ -29,6 +29,12 @@ const posts = [
 //         content: formatCaption(`photo caption example`)
 //     },
     {
+        type: 'text',
+        date: 'May 19, 2026',
+        time: '21:29',
+        content: "i love python so much python is awesome"
+    },
+    {
         type: 'photo',
         date: 'May 17, 2026',
         time: '12:20',
