@@ -23,11 +23,17 @@ const posts = [
 
 //     {
 //         type: 'photo',
-//         date: 'January 1, 2026',
-//         time: '00:00',
+//         date: 'May 21, 2026',
+//         time: '',
 //         url: 'photos/photo.webp',
 //         content: formatCaption(`photo caption example`)
-//     },
+//  
+ },    {
+        type: 'text',
+        date: 'May 21, 2026',
+        time: '17:43',
+        content: "say hello to jeanguyz!!"
+    },
     {
         type: 'text',
         date: 'May 21, 2026',
