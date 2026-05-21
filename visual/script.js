@@ -31,7 +31,7 @@ const posts = [
         type: 'text',
         date: 'May 21, 2026',
         time: '17:43',
-        content: "say hello to jeanguyz!!"
+        content: "say hello to jeanguyz!! - jeanguyz"
     },
     {
         type: 'text',
