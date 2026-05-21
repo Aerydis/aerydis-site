@@ -30,114 +30,114 @@ const posts = [
     {
         type: 'photo',
         date: 'May 21, 2026',
-        time: '20:25',
+        time: '20:25 KST',
         url: 'photos/20260521.webp',
         content: formatCaption("flex")
     },
     {
         type: 'text',
         date: 'May 21, 2026',
-        time: '17:43',
+        time: '17:43 ICT',
         content: "say hello to jeanguyz!! - jeanguyz"
     },
     {
         type: 'text',
         date: 'May 21, 2026',
-        time: '17:35',
+        time: '17:35 KST',
         content: "i love vagueposting sorry"
     },
     {
         type: 'text',
         date: 'May 21, 2026',
-        time: '17:33',
+        time: '17:33 KST',
         content: "i must have liked you a lot, to have hated you for so long"
     },
     {
         type: 'text',
         date: 'May 19, 2026',
-        time: '21:29',
+        time: '21:29 KST',
         content: "i love python so much python is awesome"
     },
     {
         type: 'photo',
         date: 'May 17, 2026',
-        time: '12:20',
+        time: '12:20 KST',
         url: 'photos/202605171220.webp',
         content: formatCaption("danced to redred in front of 250 people thank you mark")
     },
     {
         type: 'photo',
         date: 'May 15, 2026',
-        time: '13:49',
+        time: '13:49 KST',
         url: 'photos/202605151349.webp',
         content: formatCaption("delayed")
     },
     {
         type: 'photo',
         date: 'May 15, 2026',
-        time: '10:05',
+        time: '10:05 KST',
         url: 'photos/202605151005.webp',
         content: formatCaption("stone museum")
     },
     {
         type: 'photo',
         date: 'May 13, 2026',
-        time: '14:58',
+        time: '14:58 KST',
         url: 'photos/202605131458.webp',
         content: formatCaption("?")
     },
     {
         type: 'photo',
         date: 'May 13, 2026',
-        time: '10:01',
+        time: '10:01 KST',
         url: 'photos/202605131001.webp',
         content: formatCaption("osulloc with my friends")
     },
     {
         type: 'photo',
         date: 'May 12, 2026',
-        time: '13:50',
+        time: '13:50 KST',
         url: 'photos/202605121350.webp',
         content: formatCaption("sea2")
     },
     {
         type: 'photo',
         date: 'May 12, 2026',
-        time: '13:42',
+        time: '13:42 KST',
         url: 'photos/202605121342.webp',
         content: formatCaption("sea")
     },
     {
         type: 'photo',
         date: 'May 12, 2026',
-        time: '08:16',
+        time: '08:16 KST',
         url: 'photos/202605120816.webp',
         content: formatCaption("jeju island")
     },
     {
         type: 'text',
         date: 'May 11, 2026',
-        time: '14:04',
+        time: '14:04 KST',
         content: "Mark you're a real one. If I survive The Masquerade(dancing to REDRED in front of 250 people for not 2 minutes) I will peel you mangos for four hours each day and owe you my firstborn child and build a minecraft shrine in your honor."
     },
     {
         type: 'photo',
         date: 'May 5, 2026',
-        time: '19:23',
+        time: '19:23 KST',
         url: 'photos/2026050502.webp',
         content: formatCaption("a cafe I went to. It's actually so pretty wtf.")
     },
     {
         type: 'photo',
         date: 'May 5, 2026',
-        time: '18:53',
+        time: '18:53 KST',
         url: 'photos/2026050501.webp',
         content: formatCaption("white azalea")
     },
     {
         type: 'photo',
         date: 'April 13, 2026',
-        time: '22:29',
+        time: '22:29 KST',
         url: 'photos/20260413.webp',
         content: formatCaption("What. It works. I am writing JavaScript bro I am crying tears of joy. This is the joy of being a developer. I could write JavaScript until I die of old age. I will write JavaScript six feet under until humanity colonizes Mars. This is my life's purpose. It is to write JavaScript. I have dreamed of this moment since the moment I was conceived. I even feel a strong love for Chrome, which I actively hated until ten minutes ago. JavaScript. JavaScript. JavaScript. Through `${ERT} min read` I can once again feel my love for the world.")
     }
