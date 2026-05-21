@@ -28,6 +28,13 @@ const posts = [
 //         url: 'photos/photo.webp',
 //         content: formatCaption(`photo caption example`)},    
     {
+        type: 'photo',
+        date: 'May 21, 2026',
+        time: '20:25',
+        url: 'photos/20260521.webp',
+        content: formatCaption("flex")
+    },
+    {
         type: 'text',
         date: 'May 21, 2026',
         time: '17:43',
