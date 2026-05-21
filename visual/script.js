@@ -30,6 +30,18 @@ const posts = [
 //     },
     {
         type: 'text',
+        date: 'May 21, 2026',
+        time: '17:35',
+        content: "i love vagueposting sorry"
+    },
+    {
+        type: 'text',
+        date: 'May 21, 2026',
+        time: '17:33',
+        content: "i must have liked you a lot, to have hated you for so long"
+    },
+    {
+        type: 'text',
         date: 'May 19, 2026',
         time: '21:29',
         content: "i love python so much python is awesome"
