@@ -26,7 +26,14 @@ const posts = [
 //         date: 'May 21, 2026',
 //         time: '',
 //         url: 'photos/photo.webp',
-//         content: formatCaption(`photo caption example`)},    
+//         content: formatCaption(`photo caption example`)
+//      },
+    {
+        type: 'text',
+        date: 'May 23, 2026',
+        time: '08:59 KST',
+        content: "you are euphoria"
+    },
     {
         type: 'photo',
         date: 'May 21, 2026',
