@@ -34,6 +34,12 @@ const posts = [
         content: "teenage loneliness is when it's raining in your city and you have no umbrella and no one picks up the phone and you stand beneath some apartment trying to stay out of its residents' way"
     },
     {
+        type: 'text',
+        date: 'May 21, 2026',
+        time: '08:51 KST',
+        content: "you are euphoria"
+    },
+    {
         type: 'photo',
         date: 'May 21, 2026',
         time: '20:25 KST',
