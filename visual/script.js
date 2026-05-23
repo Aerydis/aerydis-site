@@ -30,6 +30,12 @@ const posts = [
     {
         type: 'text',
         date: 'May 21, 2026',
+        time: '16:46 KST',
+        content: "help me"
+    },
+    {
+        type: 'text',
+        date: 'May 21, 2026',
         time: '11:53 KST',
         content: "teenage loneliness is when it's raining in your city and you have no umbrella and no one picks up the phone and you stand beneath some apartment trying to stay out of its residents' way"
     },
