@@ -34,30 +34,31 @@ const posts = [
         type: 'text',
         date: 'May 23, 2026',
         time: '11:00 ICT',
-        content: `When twilight wept with silver rain,
-And lonely roads grew dim with pain,
-You stood beneath the grieving sky,
-While careless laughter passed you by.
-
-No faithful hand, no voice replied,
-No shelter waited by your side;
-And I, though called a friend sincere,
-Became the cause of sorrow near.
-
-Forgive the jest, so cold, so vain,
-That deepened more the storm and rain.
-For now my heart bears quiet shame,
-And trembles softly at your name.
-
-Had I but known the weight you bore,
-I would have walked beside you more;
-And held above your weary head
-The warmth and kindness left unsaid.
-
-So let these humble verses prove
-The truth of my regret and love.
-May gentler days our hearts restore,
-And heal the hurt I caused before.
+        content: `When twilight wept with silver rain,<br>
+And lonely roads grew dim with pain,<br>
+You stood beneath the grieving sky,<br>
+While careless laughter passed you by.<br>
+<br>
+No faithful hand, no voice replied,<br>
+No shelter waited by your side;<br>
+And I, though called a friend sincere,<br>
+Became the cause of sorrow near.<br>
+<br>
+Forgive the jest, so cold, so vain,<br>
+That deepened more the storm and rain.<br>
+For now my heart bears quiet shame,<br>
+And trembles softly at your name.<br>
+<br>
+Had I but known the weight you bore,<br>
+I would have walked beside you more;<br>
+And held above your weary head<br>
+The warmth and kindness left unsaid.<br>
+<br>
+So let these humble verses prove<br>
+The truth of my regret and love.<br>
+May gentler days our hearts restore,<br>
+And heal the hurt I caused before.<br>
+<br>
     -jeanguyz`
     },  
     {

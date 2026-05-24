@@ -32,7 +32,6 @@ body {
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     transition: background-color 0.2s ease-in-out;
-    white-space: pre-wrap;
 }
 
 .container {
