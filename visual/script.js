@@ -31,6 +31,12 @@ const posts = [
     {
         type: 'text',
         date: 'May 23, 2026',
+        time: '11:23 KST',
+        content: "when will this program end oh my god bro"
+    },
+    {
+        type: 'text',
+        date: 'May 23, 2026',
         time: '08:59 KST',
         content: "you are euphoria"
     },
