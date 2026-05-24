@@ -26,10 +26,14 @@ const posts = [
 //         date: 'May 21, 2026',
 //         time: '',
 //         url: 'photos/photo.webp',
-//   {
+//         content: formatCaption(`photo caption example`)
+//     },    
+
+//     paste after here!
+    {
         type: 'text',
         date: 'May 23, 2026',
-        time: '11:00 KST',
+        time: '11:00 ICT',
         content: "When twilight wept with silver rain,
 And lonely roads grew dim with pain,
 You stood beneath the grieving sky,
@@ -53,7 +57,8 @@ The warmth and kindness left unsaid.
 So let these humble verses prove
 The truth of my regret and love.
 May gentler days our hearts restore,
-And heal the hurt I caused before."
+And heal the hurt I caused before.
+    -jeanguyz"
     },  
     {
         type: 'text',
