@@ -27,17 +27,55 @@ const posts = [
 //         time: '',
 //         url: 'photos/photo.webp',
 //         content: formatCaption(`photo caption example`)
-//      },
+//     },    
+
+//     paste after here!
     {
         type: 'text',
         date: 'May 23, 2026',
-        time: '11:23 KST',
-        content: "when will this program end oh my god bro"
+        time: '11:00 ICT',
+        content: "When twilight wept with silver rain,
+And lonely roads grew dim with pain,
+You stood beneath the grieving sky,
+While careless laughter passed you by.
+
+No faithful hand, no voice replied,
+No shelter waited by your side;
+And I, though called a friend sincere,
+Became the cause of sorrow near.
+
+Forgive the jest, so cold, so vain,
+That deepened more the storm and rain.
+For now my heart bears quiet shame,
+And trembles softly at your name.
+
+Had I but known the weight you bore,
+I would have walked beside you more;
+And held above your weary head
+The warmth and kindness left unsaid.
+
+So let these humble verses prove
+The truth of my regret and love.
+May gentler days our hearts restore,
+And heal the hurt I caused before.
+    -jeanguyz"
+    },  
+    {
+        type: 'text',
+        date: 'May 21, 2026',
+        time: '16:46 KST',
+        content: "help me"
     },
     {
         type: 'text',
-        date: 'May 23, 2026',
-        time: '08:59 KST',
+        date: 'May 21, 2026',
+        time: '11:53 KST',
+        content: "teenage loneliness is when it's raining in your city and you have no umbrella and no one picks up the phone and you stand beneath some apartment trying to stay out of its residents' way"
+    },
+    {
+        type: 'text',
+        date: 'May 21, 2026',
+        time: '08:51 KST',
         content: "you are euphoria"
     },
     {
