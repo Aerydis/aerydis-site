@@ -30,6 +30,13 @@ const posts = [
 //     },    
 
 //     paste after here!
+
+    {
+        type: 'text',
+        date: 'May 24, 2026',
+        time: '13:36 KST',
+        content: "i love you"
+    },
     {
         type: 'text',
         date: 'May 23, 2026',
