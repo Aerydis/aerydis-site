@@ -34,7 +34,7 @@ const posts = [
         type: 'text',
         date: 'May 23, 2026',
         time: '11:00 ICT',
-        content: "When twilight wept with silver rain,
+        content: `When twilight wept with silver rain,
 And lonely roads grew dim with pain,
 You stood beneath the grieving sky,
 While careless laughter passed you by.
@@ -58,7 +58,7 @@ So let these humble verses prove
 The truth of my regret and love.
 May gentler days our hearts restore,
 And heal the hurt I caused before.
-    -jeanguyz"
+    -jeanguyz`
     },  
     {
         type: 'text',
