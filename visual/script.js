@@ -30,7 +30,12 @@ const posts = [
 //     },    
 
 //     paste after here!
-
+    {
+        type: 'text',
+        date: 'May 25, 2026',
+        time: '18:53 KST',
+        content: "the website is back up. amen"
+    },
     {
         type: 'text',
         date: 'May 24, 2026',
