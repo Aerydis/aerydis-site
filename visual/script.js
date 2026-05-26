@@ -33,6 +33,12 @@ const posts = [
     {
         type: 'text',
         date: 'May 26, 2026',
+        time: '13:33 KST',
+        content: "I think baby is quite nice name to call"
+    },
+    {
+        type: 'text',
+        date: 'May 26, 2026',
         time: '13:02 KST',
         content: "YUNA is babomancheni dayeon was here im back yes heheheehehehehhewehheheheheh"
     },
