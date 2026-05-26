@@ -32,6 +32,12 @@ const posts = [
 //     paste after here!
     {
         type: 'text',
+        date: 'May 26, 2026',
+        time: '11:55 KST',
+        content: "hello my name is friss, this is for testing"
+    },
+    {
+        type: 'text',
         date: 'May 25, 2026',
         time: '18:53 KST',
         content: "the website is back up. amen"
