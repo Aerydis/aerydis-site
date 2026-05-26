@@ -37,6 +37,13 @@ const posts = [
         content: "hello my name is friss, this is for testing"
     },
     {
+        type: 'photo',
+        date: 'May 24, 2026',
+        time: '22:37',
+        url: 'photos/202605242237.webp',
+        content: formatCaption("where did our shadows go")
+    },
+    {
         type: 'text',
         date: 'May 25, 2026',
         time: '18:53 KST',
