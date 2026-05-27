@@ -34,7 +34,7 @@ const posts = [
         type: 'text',
         date: 'May 27, 2026',
         time: '09:56 KST',
-        url: 'file:///home/chronos/user/MyFiles/I_hate_samgakhamsu.webp',
+        url: 'MyFiles/I_hate_samgakhamsu.webp',
         content: formatcaption('please help')
         
     },
