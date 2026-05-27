@@ -32,6 +32,13 @@ const posts = [
 //     paste after here!
     {
         type: 'text',
+        date: 'May 27, 2026',
+        time: '09:56 KST',
+        url: 'file:///home/chronos/user/Downloads/Screenshot 2026-05-14 12.49.09 PM.png',
+        content: formatcaption("please help")
+    },
+    {
+        type: 'text',
         date: 'May 26, 2026',
         time: '13:33 KST',
         content: "I think baby is quite nice name to call"
