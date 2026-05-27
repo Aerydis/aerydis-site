@@ -34,7 +34,9 @@ const posts = [
         type: 'text',
         date: 'May 27, 2026',
         time: '09:56 KST',
-        content: "finding out how to upload photos on Chromebook"
+        url: 'file:///home/chronos/user/MyFiles/I_hate_samgakhamsu.webp',
+        content: formatcaption('please help')
+        
     },
     {
         type: 'text',
