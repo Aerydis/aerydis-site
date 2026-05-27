@@ -29,15 +29,7 @@ const posts = [
 //         content: formatCaption(`photo caption example`)
 //     },    
 
-//     paste after here!
-    {
-        type: 'text',
-        date: 'May 27, 2026',
-        time: '09:56 KST',
-        url: 'MyFiles/I_hate_samgakhamsu.webp',
-        content: formatcaption('please help')
-        
-    },
+//     paste after here!  
     {
         type: 'text',
         date: 'May 26, 2026',
