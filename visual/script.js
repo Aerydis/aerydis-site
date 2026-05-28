@@ -29,7 +29,7 @@ const posts = [
 //         content: formatCaption(`photo caption example`)
 //     },    
 
-//     paste after here!  
+//     paste after here!
     {
         type: 'text',
         date: 'May 26, 2026',
@@ -76,7 +76,7 @@ And lonely roads grew dim with pain,<br>
 You stood beneath the grieving sky,<br>
 While careless laughter passed you by.<br>
 <br>
-No faithful hand, no voice replied,<br>
+No faithful hand, no voice replied,<br>~
 No shelter waited by your side;<br>
 And I, though called a friend sincere,<br>
 Became the cause of sorrow near.<br>
