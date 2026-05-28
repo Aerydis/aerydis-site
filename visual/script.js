@@ -31,11 +31,10 @@ const posts = [
 
 //     paste after here!
     {
-        type: 'photo',
+        type: 'text',
         date: 'May 28, 2026',
-        time: '16:59 KST',
-        url: 'photos/2605281659.webp',
-        content: formatCaption("long term plan")
+        time: '14:35 KST',
+        content: "everything"
     },
     {
         type: 'text',
