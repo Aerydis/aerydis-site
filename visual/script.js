@@ -34,7 +34,7 @@ const posts = [
         type: 'photo',
         date: 'May 28, 2026',
         time: '16:59 KST',
-        url: 'photos/202605281659.webp',
+        url: 'photos/2605281659.webp',
         content: formatCaption("long term plan")
     },
     {
