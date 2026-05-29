@@ -40,7 +40,7 @@ const posts = [
         type: 'text',
         date: 'May 28, 2026',
         time: '14:35 KST',
-        content: "everything"
+        content: "cannot is one word"
     },
     {
         type: 'text',
