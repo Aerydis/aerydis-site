@@ -32,6 +32,12 @@ const posts = [
 //     paste after here!
     {
         type: 'text',
+        date: 'May 29, 2026',
+        time: '21:01 KST',
+        content: "why are microbits so hard to connect to scratch this cannot be it i cannot have lived 17 years just to fail at connecting a microbit to scratch please"
+    },
+    {
+        type: 'text',
         date: 'May 28, 2026',
         time: '14:35 KST',
         content: "everything"
