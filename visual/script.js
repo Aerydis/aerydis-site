@@ -63,7 +63,7 @@ const posts = [
     {
         type: 'photo',
         date: 'May 24, 2026',
-        time: '22:37',
+        time: '22:37 KST',
         url: 'photos/202605242237.webp',
         content: formatCaption("where did our shadows go")
     },
