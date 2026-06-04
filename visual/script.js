@@ -32,6 +32,12 @@ const posts = [
 //     paste after here!
     {
         type: 'text',
+        date: 'June 4, 2026',
+        time: '20:38 KST',
+        content: "I like going on walks because I envy people sitting inside buses. I miss the feeling of going somewhere, having a sense of purpose while essentially doing nothing. To me, taking walks to think is boring and exceedingly depressing because it makes me think about the same things over and over again, which is probably a problem in itself. But people sitting inside buses look happy."
+    },
+    {
+        type: 'text',
         date: 'May 29, 2026',
         time: '21:01 KST',
         content: "why are microbits so hard to connect to scratch this cannot be it i cannot have lived 17 years just to fail at connecting a microbit to scratch please"
