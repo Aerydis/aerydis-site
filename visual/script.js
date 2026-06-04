@@ -32,6 +32,12 @@ const posts = [
 //     paste after here!
     {
         type: 'text',
+        date: 'June 5, 2026',
+        time: '01:20 KST',
+        content: "I'll make you happy even when we are not on the bus"
+    },
+    {
+        type: 'text',
         date: 'June 4, 2026',
         time: '20:38 KST',
         content: "I like going on walks because I envy people sitting inside buses. I miss the feeling of going somewhere, having a sense of purpose while essentially doing nothing. To me, taking walks to think is boring and exceedingly depressing because it makes me think about the same things over and over again, which is probably a problem in itself. But people sitting inside buses look happy."
