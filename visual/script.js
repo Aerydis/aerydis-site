@@ -36,7 +36,7 @@ const posts = [
         time: '18:46',
         url: 'photos/IMG_2052.webp',
         content: 'sky'
-    }
+    },
     {
         type: 'text',
         date: 'June 5, 2026',
