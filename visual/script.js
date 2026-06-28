@@ -31,6 +31,13 @@ const posts = [
 
 //     paste after here!
     {
+        type: 'photo',
+        date: 'June 12, 2026',
+        time: '18:46',
+        url: 'photos/IMG2052.webp',
+        content: 'sky'
+    }
+    {
         type: 'text',
         date: 'June 5, 2026',
         time: '01:20 KST',
