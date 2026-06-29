@@ -35,15 +35,14 @@ const posts = [
         date: 'June 21, 2026',
         time: '19:48 KST', 
         url: 'photos/202606211948.webp',
-        content: formatCaption("i love who you are")
+        content: formatCaption()
     },
     {
         type: 'photo',
         date: 'June 18, 2026',
         time: '21:59 KST', // check time again
         url: 'photos/202606180759.webp',
-        content: formatCaption(`i saw a cat while waiting for you.<br>
-        when you tell me i have cat eyes, i hope this kind is what you mean.<br>`)
+        content: formatCaption(`i saw a cat while waiting for you. when you tell me i have cat eyes, i hope this is what you mean.`)
     },
     {
         type: 'photo',
