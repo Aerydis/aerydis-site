@@ -35,7 +35,7 @@ const posts = [
         date: 'June 21, 2026',
         time: '19:48 KST', 
         url: 'photos/202606211948.webp',
-        content: formatCaption()
+        content: formatCaption("")
     },
     {
         type: 'photo',
