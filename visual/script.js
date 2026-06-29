@@ -31,6 +31,12 @@ const posts = [
 
 //     paste after here!
     {
+        type: 'text',
+        date: 'June 29, 2026',
+        time: '12:54 KST',
+        content: "no amount of eye-winking, curiosity-begging, concern-provoking digitally implicit hints will educate me enough on your feelings for me to be able to make educated guesses on them."
+    },
+    {
         type: 'photo',
         date: 'June 21, 2026',
         time: '19:48 KST', 
