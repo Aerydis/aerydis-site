@@ -32,10 +32,32 @@ const posts = [
 //     paste after here!
     {
         type: 'photo',
+        date: 'June 21, 2026',
+        time: '19:48 KST', 
+        url: 'photos/202606180759.webp',
+        content: "i love who you are"
+    },
+    {
+        type: 'photo',
+        date: 'June 18, 2026',
+        time: '21:59 KST', // check time again
+        url: 'photos/202606180759.webp',
+        content: `i saw a cat while waiting for you.<br>
+        when you tell me i have cat eyes, i hope this kind is what you mean.<br>`
+    },
+    {
+        type: 'photo',
+        date: 'June 18, 2026',
+        time: '00:07 KST',
+        url: 'photos/202606180007.webp',
+        content: 'and they talk about the environment'
+    },
+    {
+        type: 'photo',
         date: 'June 12, 2026',
-        time: '18:46',
-        url: 'photos/IMG_2052.webp',
-        content: 'sky'
+        time: '18:46 KST',
+        url: 'photos/202606121846.webp',
+        content: 'i told my boy go roll like ten blunts for me'
     },
     {
         type: 'text',
