@@ -34,36 +34,36 @@ const posts = [
         type: 'photo',
         date: 'June 21, 2026',
         time: '19:48 KST', 
-        url: 'photos/202606180759.webp',
-        content: "i love who you are"
+        url: 'photos/202606211948.webp',
+        content: formatCaption("i love who you are")
     },
     {
         type: 'photo',
         date: 'June 18, 2026',
         time: '21:59 KST', // check time again
         url: 'photos/202606180759.webp',
-        content: `i saw a cat while waiting for you.<br>
-        when you tell me i have cat eyes, i hope this kind is what you mean.<br>`
+        content: formatCaption(`i saw a cat while waiting for you.<br>
+        when you tell me i have cat eyes, i hope this kind is what you mean.<br>`)
     },
     {
         type: 'photo',
         date: 'June 18, 2026',
         time: '00:07 KST',
         url: 'photos/202606180007.webp',
-        content: 'and they talk about the environment'
+        content: formatCaption('and they talk about the environment')
     },
     {
         type: 'photo',
         date: 'June 12, 2026',
         time: '18:46 KST',
         url: 'photos/202606121846.webp',
-        content: 'i told my boy go roll like ten blunts for me'
+        content: formatCaption('i told my boy go roll like ten blunts for me')
     },
     {
         type: 'text',
         date: 'June 5, 2026',
         time: '01:20 KST',
-        content: "I'll make you happy even when we are not on the bus"
+        content: "I'll make you happy even when we are not on the bus -f"
     },
     {
         type: 'text',
@@ -87,7 +87,7 @@ const posts = [
         type: 'text',
         date: 'May 26, 2026',
         time: '13:33 KST',
-        content: "I think baby is quite nice name to call"
+        content: "I think baby is quite nice name to call -f"
     },
     {
         type: 'text',
