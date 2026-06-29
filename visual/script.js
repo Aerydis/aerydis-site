@@ -34,7 +34,7 @@ const posts = [
         type: 'text',
         date: 'June 29, 2026',
         time: '12:54 KST',
-        content: "no amount of eye-winking, curiosity-begging, concern-provoking digitally implicit hints will inform me enough on your feelings for me to be able to make educated guesses on them."
+        content: "no amount of eye-winking, curiosity-begging, concern-provoking digitally implicit hints will inform me enough to be able to make educated guesses on your feelings."
     },
     {
         type: 'photo',
