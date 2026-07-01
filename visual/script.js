@@ -1,7 +1,7 @@
 /**
  * note to myself
- * 1. to add photo entry: add object in posts with { type: 'photo', url: '...', caption: '...' }
- * 2. To add text entry: add object in posts with { type: 'text', content: '...' }
+ * 1. to add photo entry: add object in posts with { type: 'photo', url: '...', caption: '...', author: '...' }
+ * 2. To add text entry: add object in posts with { type: 'text', content: '...', author: '...' }
  */
 
 function formatCaption(text) {
@@ -32,18 +32,21 @@ const posts = [
 
     {
         type: 'text',
+        author: 'jeanguyz',
         date: 'June 29, 2026',
         time: '6:37 VST',
-        content: "Hey, I know your exams are coming up in July. Good luck with studying—you've got this. Don't forget to rest too. I'm rooting for you. - jeanguyz"
+        content: "Hey, I know your exams are coming up in July. Good luck with studying—you've got this. Don't forget to rest too. I'm rooting for you."
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'June 29, 2026',
         time: '12:54 KST',
         content: "no amount of eye-winking, curiosity-begging, concern-provoking digitally implicit hints will inform me enough to be able to make educated guesses on your feelings."
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'June 21, 2026',
         time: '19:48 KST', 
         url: 'photos/202606211948.webp',
@@ -51,6 +54,7 @@ const posts = [
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'June 18, 2026',
         time: '21:59 KST', // check time again
         url: 'photos/202606180759.webp',
@@ -58,6 +62,7 @@ const posts = [
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'June 18, 2026',
         time: '00:07 KST',
         url: 'photos/202606180007.webp',
@@ -65,6 +70,7 @@ const posts = [
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'June 12, 2026',
         time: '18:46 KST',
         url: 'photos/202606121846.webp',
@@ -72,48 +78,56 @@ const posts = [
     },
     {
         type: 'text',
+        author: 'friss',
         date: 'June 5, 2026',
         time: '01:20 KST',
-        content: "I'll make you happy even when we are not on the bus -f"
+        content: "I'll make you happy even when we are not on the bus"
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'June 4, 2026',
         time: '20:38 KST',
         content: "I like going on walks because I envy people sitting inside buses. I miss the feeling of going somewhere, having a sense of purpose while essentially doing nothing. To me, taking walks to think is boring and exceedingly depressing because it makes me think about the same things over and over again, which is probably a problem in itself. But people sitting inside buses look happy."
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 29, 2026',
         time: '21:01 KST',
         content: "why are microbits so hard to connect to scratch this cannot be it i cannot have lived 17 years just to fail at connecting a microbit to scratch please"
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 28, 2026',
         time: '14:35 KST',
         content: "cannot is one word"
     },
     {
         type: 'text',
+        author: 'friss',
         date: 'May 26, 2026',
         time: '13:33 KST',
-        content: "I think baby is quite nice name to call -f"
+        content: "I think baby is quite nice name to call"
     },
     {
         type: 'text',
+        author: 'dayeon',
         date: 'May 26, 2026',
         time: '13:02 KST',
         content: "YUNA is babomancheni dayeon was here im back yes heheheehehehehhewehheheheheh"
     },
     {
         type: 'text',
+        author: 'friss',
         date: 'May 26, 2026',
         time: '11:55 KST',
         content: "hello my name is friss, this is for testing"
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 24, 2026',
         time: '22:37 KST',
         url: 'photos/202605242237.webp',
@@ -121,18 +135,21 @@ const posts = [
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 25, 2026',
         time: '18:53 KST',
         content: "the website is back up. amen"
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 24, 2026',
         time: '13:36 KST',
         content: "i love you"
     },
     {
         type: 'text',
+        author: 'jeanguyz',
         date: 'May 23, 2026',
         time: '11:00 ICT',
         content: `When twilight wept with silver rain,<br>
@@ -158,61 +175,53 @@ The warmth and kindness left unsaid.<br>
 So let these humble verses prove<br>
 The truth of my regret and love.<br>
 May gentler days our hearts restore,<br>
-And heal the hurt I caused before.<br>
-<br>
-    -jeanguyz`
+And heal the hurt I caused before.<br>`
     },  
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 21, 2026',
         time: '16:46 KST',
         content: "help me"
     },
     {
         type: 'text',
-        date: 'May 21, 2026',
-        time: '11:53 KST',
-        content: "teenage loneliness is when it's raining in your city and you have no umbrella and no one picks up the phone and you stand beneath some apartment trying to stay out of its residents' way"
-    },
-    {
-        type: 'text',
+        author: 'aerydis',
         date: 'May 21, 2026',
         time: '08:51 KST',
         content: "you are euphoria"
     },
     {
-        type: 'photo',
-        date: 'May 21, 2026',
-        time: '20:25 KST',
-        url: 'photos/20260521.webp',
-        content: formatCaption("flex")
-    },
-    {
         type: 'text',
+        author: 'jeanguyz',
         date: 'May 21, 2026',
         time: '17:43 ICT',
         content: "say hello to jeanguyz!! - jeanguyz"
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 21, 2026',
         time: '17:35 KST',
         content: "i love vagueposting sorry"
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 21, 2026',
         time: '17:33 KST',
         content: "i must have liked you a lot, to have hated you for so long"
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 19, 2026',
         time: '21:29 KST',
         content: "i love python so much python is awesome"
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 17, 2026',
         time: '12:20 KST',
         url: 'photos/202605171220.webp',
@@ -220,6 +229,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 15, 2026',
         time: '13:49 KST',
         url: 'photos/202605151349.webp',
@@ -227,6 +237,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 15, 2026',
         time: '10:05 KST',
         url: 'photos/202605151005.webp',
@@ -234,6 +245,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 13, 2026',
         time: '14:58 KST',
         url: 'photos/202605131458.webp',
@@ -241,6 +253,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 13, 2026',
         time: '10:01 KST',
         url: 'photos/202605131001.webp',
@@ -248,6 +261,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 12, 2026',
         time: '13:50 KST',
         url: 'photos/202605121350.webp',
@@ -255,6 +269,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 12, 2026',
         time: '13:42 KST',
         url: 'photos/202605121342.webp',
@@ -262,6 +277,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 12, 2026',
         time: '08:16 KST',
         url: 'photos/202605120816.webp',
@@ -269,12 +285,14 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'text',
+        author: 'aerydis',
         date: 'May 11, 2026',
         time: '14:04 KST',
         content: "Mark you're a real one. If I survive The Masquerade(dancing to REDRED in front of 250 people for not 2 minutes) I will peel you mangos for four hours each day and owe you my firstborn child and build a minecraft shrine in your honor."
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 5, 2026',
         time: '19:23 KST',
         url: 'photos/2026050502.webp',
@@ -282,6 +300,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'May 5, 2026',
         time: '18:53 KST',
         url: 'photos/2026050501.webp',
@@ -289,6 +308,7 @@ And heal the hurt I caused before.<br>
     },
     {
         type: 'photo',
+        author: 'aerydis',
         date: 'April 13, 2026',
         time: '22:29 KST',
         url: 'photos/20260413.webp',
@@ -304,12 +324,18 @@ function renderFeed() {
         const article = document.createElement('article');
         article.className = 'post';
 
+        const authorHTML = post.author ? `<span class="post-author">${post.author}</span>` : '';
+        const timeHTML = post.time ? `<span class="post-time">${post.time}</span>` : '';
+
         // date/time
         let postHTML = `
             <div class="post-meta">
-                <span class="post-date">${post.date}</span>
-                <span class="post-time">${post.time}</span>
+                ${authorHTML}
                 <div class="line"></div>
+                <div class="post-meta-right">
+                    <span class="post-date">${post.date}</span>
+                    ${timeHTML}
+                </div>
             </div>
         `;
 

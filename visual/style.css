@@ -106,7 +106,8 @@ header {
 
 /* date */
 .post-meta {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 16px;
     margin-bottom: 24px;
@@ -118,26 +119,37 @@ header {
     font-family: 'Bitcount Grid Double', monospace;
 }
 
+.post-author {
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.post-meta-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.post-date,
+.post-time {
+    display: inline-block;
+}
+
 .post-time {
     color: var(--text-more-muted);
     font-weight: 700;
 }
 
-.post-time::before {
-    content: '•';
-    display: inline-block;
-    margin: 0 8px 0 0;
-    color: var(--text-more-muted);
-}
-
 .line {
     height: 1px;
-    flex-grow: 1;
+    width: 100%;
     background-color: var(--border-color);
 }
 
 .photo-container {
-    background-color: var(--photo-bg);
+    background-color: transparent;
     border-radius: 2px;
     overflow: hidden;
     margin-bottom: 24px;
@@ -145,7 +157,11 @@ header {
 
 .photo-container img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 75vh;
     display: block;
+    object-fit: contain;
     transition: transform 0.7s ease;
 }
 
