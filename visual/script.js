@@ -28,12 +28,14 @@ const posts = [
 //         url: 'photos/photo.webp',
 //         content: formatCaption(`photo caption example`)
 //     }, 
-    type: '시험에서 만점 받길 바랄게!',
-        date: 'June 29, 2026',
-        time: '8:37 KST',
-        content: "Hey, I know your exams are coming up in July. Good luck with studying—you’ve got this. Don’t forget to rest too. I’m rooting for you.(by jean)"
-
 //     paste after here!
+
+    {
+        type: 'text',
+        date: 'June 29, 2026',
+        time: '6:37 VST',
+        content: "Hey, I know your exams are coming up in July. Good luck with studying—you’ve got this. Don’t forget to rest too. I’m rooting for you.(by jean)"
+    },
     {
         type: 'text',
         date: 'June 29, 2026',
