@@ -120,6 +120,7 @@ header {
 }
 
 .post-author {
+    color: var(--text-main);
     white-space: nowrap;
     opacity: 0.85;
 }
