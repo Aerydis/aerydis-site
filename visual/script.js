@@ -113,10 +113,10 @@ const posts = [
     },
     {
         type: 'text',
-        author: 'dayeon',
+        author: 'kingwangjjang',
         date: 'May 26, 2026',
         time: '13:02 KST',
-        content: "YUNA is babomancheni dayeon was here im back yes heheheehehehehhewehheheheheh"
+        content: "YUNA is babomancheni kingwangjjang was here im back yes heheheehehehehhewehheheheheh"
     },
     {
         type: 'text',
