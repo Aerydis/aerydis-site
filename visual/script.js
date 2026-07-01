@@ -32,6 +32,13 @@ const posts = [
 
     {
         type: 'text',
+        author: 'aerydis',
+        date: 'July 1, 2026',
+        time: '18:41 KST',
+        content: "my free will is costing me"
+    },
+    {
+        type: 'text',
         author: 'jeanguyz',
         date: 'June 29, 2026',
         time: '6:37 VST',
