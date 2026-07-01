@@ -34,7 +34,7 @@ const posts = [
         type: 'text',
         date: 'June 29, 2026',
         time: '6:37 VST',
-        content: "Hey, I know your exams are coming up in July. Good luck with studying—you’ve got this. Don’t forget to rest too. I’m rooting for you.(by jean)"
+        content: "Hey, I know your exams are coming up in July. Good luck with studying—you've got this. Don't forget to rest too. I'm rooting for you. - jeanguyz"
     },
     {
         type: 'text',
