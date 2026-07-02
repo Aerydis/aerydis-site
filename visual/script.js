@@ -323,10 +323,68 @@ And heal the hurt I caused before.<br>`
     }
 ];
 
+const selectedAuthors = new Set();
+
+function getAuthorCounts() {
+    return posts.reduce((counts, post) => {
+        if (post.author) {
+            counts[post.author] = (counts[post.author] || 0) + 1;
+        }
+        return counts;
+    }, {});
+}
+
+function renderAuthorFilters() {
+    const authorListElement = document.getElementById('author-list');
+    const authorCounts = getAuthorCounts();
+
+    authorListElement.innerHTML = '';
+
+    Object.entries(authorCounts)
+        .sort((a, b) => a[0].localeCompare(b[0]))
+        .forEach(([author, count]) => {
+            const label = document.createElement('label');
+            label.className = 'author-filter-item';
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = author;
+            checkbox.checked = selectedAuthors.has(author);
+            checkbox.addEventListener('change', () => {
+                if (checkbox.checked) {
+                    selectedAuthors.add(author);
+                } else {
+                    selectedAuthors.delete(author);
+                }
+                renderFeed();
+            });
+
+            const text = document.createElement('span');
+            text.textContent = `${author} (${count})`;
+
+            label.appendChild(checkbox);
+            label.appendChild(text);
+            authorListElement.appendChild(label);
+        });
+}
+
 function renderFeed() {
     const feedElement = document.getElementById('feed');
+    const filteredPosts = posts.filter(post => {
+        return selectedAuthors.size === 0 || selectedAuthors.has(post.author);
+    });
 
-    posts.forEach(post => {
+    feedElement.innerHTML = '';
+
+    if (filteredPosts.length === 0) {
+        const emptyState = document.createElement('p');
+        emptyState.className = 'empty-feed';
+        emptyState.textContent = 'No posts from the selected authors.';
+        feedElement.appendChild(emptyState);
+        return;
+    }
+
+    filteredPosts.forEach(post => {
         // create article element for each post
         const article = document.createElement('article');
         article.className = 'post';
@@ -368,6 +426,7 @@ function renderFeed() {
 }
 
 window.onload = function() {
+    renderAuthorFilters();
     renderFeed();
     initThemeToggle();
 };

@@ -97,6 +97,105 @@ header {
     padding-bottom: 100px;
 }
 
+.bitcount-single-heading {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+.author-filter-panel {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: min(240px, calc(100vw - 32px));
+    padding: 0;
+    background: transparent;
+    z-index: 20;
+}
+
+.author-filter-panel h2 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-main);
+}
+
+.author-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.author-filter-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 6px 0;
+    font-size: 13px;
+    color: var(--text-more-muted);
+    cursor: pointer;
+}
+
+.author-filter-item span {
+    order: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.author-filter-item input {
+    order: 1;
+    margin: 0;
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    background-color: var(--bg-color);
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    accent-color: var(--text-main);
+}
+
+.author-filter-item input:checked {
+    background-color: var(--text-main);
+    border-color: var(--text-main);
+}
+
+.author-filter-item input:checked::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 7px;
+    border: solid var(--bg-color);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.author-filter-item input:focus-visible {
+    outline: 2px solid var(--text-main);
+    outline-offset: 2px;
+}
+
+.empty-feed {
+    color: var(--text-muted);
+    font-size: 14px;
+    padding: 12px 0;
+}
+
 .post {
     position: relative;
     border: 1px solid var(--border-color);
@@ -196,5 +295,11 @@ footer {
     text-align: center;
     color: var(--text-muted);
     font-size: 13px;
+}
+
+@media (max-width: 900px) {
+    .author-filter-panel {
+        display: none;
+    }
 }
 
