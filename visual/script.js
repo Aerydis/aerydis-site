@@ -29,7 +29,13 @@ const posts = [
 //         content: formatCaption(`photo caption example`)
 //     }, 
 //     paste after here!
-
+    {
+        type: 'text',
+        author: 'friss',
+        date: 'July13, 2026',
+        time: '09:16 KST',
+        content: "It always started with your single glaze in the quiet place. As you turned your head and saw me straight, I always turned my head and stared off into space. As I slowly turned my head to see you straight, you waited for me. That was where I could get to know what 'loving someone' is like. I will never stop loving someone even if my winter's last snowman melts into the ground and cherry blossoms greet my sorrowful visitation."
+    },
     {
         type: 'text',
         author: 'aerydis',
