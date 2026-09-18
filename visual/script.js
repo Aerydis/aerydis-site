@@ -15,10 +15,10 @@ function formatCaption(text) {
 
 const posts = [
 //     {
-//         type: 'text',
-//         date: 'January 1, 2026',
-//         time: '00:00',
-//         content: "text post example"
+//         type: 'when u try to read your korean friends chat talk about the hsitory belike',
+//         date: 'July 26, 2026',
+//         time: '02:00',
+//         content: "When the sun did not rise and the people of the Thebes have suffered from a heated mist, they prayed to the Gods and their mercy. Celestial ship descended from the stars, building the pyramids over the holy of the pharaohs. These pyramids symbols of Egypt's majesty, hold the divine that power the Nile flow, set the heavens in motions, and restore life to the Earth, let future generations know their lives are a gift from the Gods of the stars, preserved within the sacred monuments. I stand at the end of my days, for 60 years I have walked this Earth. But now, sickness consumes me. Soon, the breath of life will leave my body, and my time will be over. When Ramadan died, he ascended to Amenti, the land of the dead. Yet, in my dreams, I have seen his spirit suffering, trapped in chains of pain, in that curse, that place. I do not trust in Heavens or their Gods. I reject their judgement, and I refuse to go to Amenti. Do not embalm my body. Do not trap me in their rituals. Let my body stay here, with these sacred walls, in this stone chamber. Let my soul remain in a chamber. Let my soul remain in the shadowed halls of this pyramid, to wander forever. Free, from the torment of the afterlife"
 //     },
 
 //     {
